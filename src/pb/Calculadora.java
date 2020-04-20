@@ -10,7 +10,7 @@ public class Calculadora {
 		 Integer option;
 		 Integer resultado;
 		 do{
-		 System.out.println("Ingrese su operación /n 1 para multiplicar /n 2 para restar /n 3 para sumar /n 4 para dividir");
+		 System.out.println("Ingrese su operación /n 1 para multiplicar  /n 2 para restar /n 3 para sumar  /n 4 para dividir");
 		 option = teclado.nextInt();
 		 }while(option < 1 && option > 4);
 		 System.out.println("Ingrese el primer numero");
