@@ -10,18 +10,18 @@ public class Calculadora {
 		 Integer option;
 		 Integer resultado;
 		 do{
-		 System.out.println("Ingrese su operación /n 1 para multiplicar  /n 2 para restar /n 3 para sumar  /n 4 para dividir");
+		 System.out.println("Ingrese su operación /n 1 para restar  /n 2 para sumar  /n 3 para multiplicar  /n 4 para dividir");
 		 option = teclado.nextInt();
 		 }while(option < 1 && option > 4);
 		 System.out.println("Ingrese el primer numero");
 		 a = teclado.nextInt();
 		 System.out.println("Ingrese el segundo numero");
 		 b = teclado.nextInt();
-		 if(option.equals(3)){
-		 resultado = a + b;
-		 }else if(option.equals(2)){
+		 if(option.equals(1)){
 		 resultado = a - b;
-		 }else if(option.equals(1)){
+		 }else if(option.equals(2)){
+		 resultado = a + b;
+		 }else if(option.equals(3)){
 		 resultado = a * b;
 		 }else{
 		 resultado = a / b;
